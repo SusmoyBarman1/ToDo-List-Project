@@ -1,0 +1,3 @@
+Give a description for your work!
+Give the deadline in dd/mm/yy.
+Give the priority for the note, 1 = Not so important, 5 = Most important.
