@@ -31,8 +31,9 @@ void addTolist(string des,string date,int prio)
 	listsize++;
 }
 
-void recent()
+void Recent()
 {
+	//This fucntion will print the most last value in the list.
 	if(listsize==0)
 	{
 		cout<<"Your list is empty!!"<<endl;
