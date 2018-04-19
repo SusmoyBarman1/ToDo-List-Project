@@ -25,7 +25,6 @@ int listsize=0;
 
 void addTolist(string des,string date,int prio)
 {
-	//Adding some extra line as comment
 	todo[listsize].description = des;
 	todo[listsize].date = date;
 	todo[listsize].priority = prio;         
@@ -43,8 +42,9 @@ void recent()
 	cout<<var.prio<<todo[listsize-1].priority<<endl;
 }
 
-void print()
+void Print()
 {
+	//This function will print whole list
 	cout<<"\nYour list is given bellow"<<endl;
 	for(int i=0;i<listsize;i++)
 	{
