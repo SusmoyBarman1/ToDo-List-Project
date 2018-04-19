@@ -1,0 +1,8 @@
+git branch branch_name
+git checkout branch_name
+edit file and safe
+git add .
+git commit -m "........"
+git push --set-upstream origin add
+git fetch ( to connect with github)
+git pull (to update according to github)
