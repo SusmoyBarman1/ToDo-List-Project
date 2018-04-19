@@ -23,11 +23,12 @@ struct List
 List todo[100],var;
 int listsize=0;
 
-void addTolist(string des,string date1,int prio)
+void addTolist(string des,string date,int prio)
 {
+	//Adding some extra line as comment
 	todo[listsize].description = des;
-	todo[listsize].date = date1;
-	todo[listsize].priority = prio;
+	todo[listsize].date = date;
+	todo[listsize].priority = prio;         
 	listsize++;
 }
 
